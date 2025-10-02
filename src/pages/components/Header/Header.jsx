@@ -14,7 +14,7 @@ function Header() {
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to={"/form"}>
+          <NavLink className="nav-link" to={"/"}>
             Form for Enties
           </NavLink>
         </li>
