@@ -1,10 +1,8 @@
-import "@/pages/components/DiaryPanel/FormForEntries/FormForEntries.css";
-
 export default function FormForEntries() {
   return (
     <form action="#" className="form d-flex flex-column gap-2">
       <textarea
-        className="textarea-main"
+        className="textarea-main border border-2 border-dark"
         name="entry"
         id="entry"
         rows={15}
